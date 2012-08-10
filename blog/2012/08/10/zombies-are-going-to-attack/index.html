@@ -9,8 +9,8 @@
   <meta name="author" content="Test Name">
 
   
-  <meta name="description" content="
-">
+  <meta name="description" content="This guide demonstrates how you can constantly report your computer&#8217;s internal
+and external IP address to a file in your Dropbox. Step 1: &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -91,7 +91,20 @@
   </header>
 
 
-<div class="entry-content">
+<div class="entry-content"><p>This guide demonstrates how you can constantly report your computer&#8217;s internal
+and external IP address to a file in your Dropbox.</p>
+
+<h1>Step 1:</h1>
+
+<p>Create a text file which has the following cronjobs:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>*/5 * * * * curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/&lt;> :]//g' > ~/Dropbox/IPAddresses/macbookair13/ip.txt
+</span><span class='line'>*/5 * * * * sh ~/Dropbox/crons/mba13/ifconfig.sh</span></code></pre></td></tr></table></div></figure>
+
+
+
 </div>
 
 

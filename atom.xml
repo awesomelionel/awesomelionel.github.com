@@ -4,7 +4,7 @@
   <title><![CDATA[My Test Blog]]></title>
   <link href="http://awesomelionel.github.com/atom.xml" rel="self"/>
   <link href="http://awesomelionel.github.com/"/>
-  <updated>2012-08-10T17:11:21+08:00</updated>
+  <updated>2012-08-10T20:25:26+08:00</updated>
   <id>http://awesomelionel.github.com/</id>
   <author>
     <name><![CDATA[Test Name]]></name>
@@ -18,7 +18,20 @@
     <link href="http://awesomelionel.github.com/blog/2012/08/10/zombies-are-going-to-attack/"/>
     <updated>2012-08-10T16:16:00+08:00</updated>
     <id>http://awesomelionel.github.com/blog/2012/08/10/zombies-are-going-to-attack</id>
-    <content type="html"><![CDATA[
+    <content type="html"><![CDATA[<p>This guide demonstrates how you can constantly report your computer&#8217;s internal
+and external IP address to a file in your Dropbox.</p>
+
+<h1>Step 1:</h1>
+
+<p>Create a text file which has the following cronjobs:</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>*/5 * * * * curl -s http://checkip.dyndns.org | sed 's/[a-zA-Z/&lt;> :]//g' > ~/Dropbox/IPAddresses/macbookair13/ip.txt
+</span><span class='line'>*/5 * * * * sh ~/Dropbox/crons/mba13/ifconfig.sh</span></code></pre></td></tr></table></div></figure>
+
+
+
 ]]></content>
   </entry>
   
