@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[My Test Blog]]></title>
+  <link href="http://awesomelionel.github.com/atom.xml" rel="self"/>
+  <link href="http://awesomelionel.github.com/"/>
+  <updated>2012-08-10T16:25:59+08:00</updated>
+  <id>http://awesomelionel.github.com/</id>
+  <author>
+    <name><![CDATA[Test Name]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Zombies are going to attack]]></title>
+    <link href="http://awesomelionel.github.com/blog/2012/08/10/zombies-are-going-to-attack/"/>
+    <updated>2012-08-10T16:16:00+08:00</updated>
+    <id>http://awesomelionel.github.com/blog/2012/08/10/zombies-are-going-to-attack</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[test]]></title>
+    <link href="http://awesomelionel.github.com/blog/2012/08/10/test/"/>
+    <updated>2012-08-10T16:16:00+08:00</updated>
+    <id>http://awesomelionel.github.com/blog/2012/08/10/test</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Post Test]]></title>
+    <link href="http://awesomelionel.github.com/blog/2012/08/10/post-test/"/>
+    <updated>2012-08-10T00:00:00+08:00</updated>
+    <id>http://awesomelionel.github.com/blog/2012/08/10/post-test</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
+  
+</feed>
