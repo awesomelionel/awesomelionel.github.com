@@ -6,3 +6,10 @@ comments: true
 sharing: true
 footer: true
 ---
+
+{{ page.title}}
+=====================
+
+This is supposed to be an about me page. What's there to tell?
+<!-- more --> 
+NOTHING!
